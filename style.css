@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    display: flex;
+    margin: 0;
+    font: 100% / 1.5 sans-serif;
+    background: url("images/moon-bg.jpg") no-repeat fixed center / cover black;
+  }
+  .disclosure-alert {
+    background-color: hsl(0, 0%, 95%);
+    width: 85%;
+    max-width: 48rem;
+    margin: auto;
+    color: hsl(0, 0%, 20%);
+  }
+  .disclosure-header {
+    background: linear-gradient(hsl(300, 50%, 20%), hsl(300, 50%, 10%));
+    padding: 2rem 0.5rem;
+    text-align: center;
+    color: hsl(300, 50%, 95%);
+  }
+  .disclosure-title {
+    margin: 0;
+    font-size: 2rem;
+    line-height: 1.25;
+  }
+  .disclosure-content {
+    margin: 1.5rem;
+  }
+  .legal-contents {
+    margin-top: 1.5rem;
+    background-color: white;
+    padding: 0.75rem;
+    font-family: "Times New Roman", serif;
+  }
+  .button-group {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .button {
+    display: inline-block;
+    text-align: center;
+    padding: 0.5rem 1rem;
+    background: black;
+    text-decoration: none;
+    color: white;
+    width: 50%;
+    max-width: 8rem;
+  }
+  .button + .button {
+    margin-left: 1.5rem;
+  }
+  .button-primary {
+    background: linear-gradient(to bottom, hsl(200, 100%, 30%), hsl(200, 100%, 20%));
+  }
+  .button-primary:hover {
+    background: linear-gradient(to bottom, hsl(200, 100%, 25%), hsl(200, 100%, 15%));
+  }
+  .button-secondary {
+    background: linear-gradient(to bottom, hsl(200, 10%, 30%), hsl(200, 10%, 20%));
+  }
+  .button-secondary:hover {
+    background: linear-gradient(to bottom, hsl(200, 10%, 25%), hsl(200, 10%, 15%));
+  }
